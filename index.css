@@ -1,0 +1,20 @@
+
+
+/* 🌟 Custom smooth bounce animation for arrow */
+@keyframes bounce-slow {
+  0%, 100% {
+    transform: translateY(0);   /* arrow stays in its original position */
+  }
+  50% {
+    transform: translateY(-6px);  /* arrow moves up slightly */
+  }
+}
+
+/* Apply this animation with the class name "animate-bounce-slow" */
+.animate-bounce-slow {
+  animation: bounce-slow 2s infinite ease-in-out;
+}
+/* 💫 Optional soft glow for ripple */
+.ripple {
+  box-shadow: 0 0 20px rgba(173, 216, 230, 0.8);
+}

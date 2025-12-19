@@ -1,0 +1,8 @@
+
+{
+  "name": "Snow Photography",
+  "description": "A modern, elegant, and animated portfolio website for Snow Photography, showcasing wedding photos and videos.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
